@@ -1,0 +1,3 @@
+INSERT INTO usuarios (clabe_inter, nombre_usuario, rfc, tipo_cuenta, dinero_cuenta) VALUES (123456789, 'Oswaldo Ivan Villa', 'VIPO987845', 'NOMINA', 2000);
+
+INSERT INTO deposito (clabe_inter, nombre_usuario, tipo_cuenta) VALUES (234567891, 'Norma Perez Herrera', 'NOMINA');

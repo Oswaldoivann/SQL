@@ -1,0 +1,21 @@
+CREATE DATABASE BANK;
+
+CREATE TABLE usuarios(
+    id SERIAL,
+    clabe_inter BIGINT (16),
+    nombre_usuario VARCHAR (250),
+    rfc VARCHAR (50),
+    tipo_cuenta VARCHAR (50),
+    dinero_cuenta DECIMAL (20,2)
+);
+
+CREATE TABLE deposito(
+    id SERIAL,
+    clabe_inter BIGINT (16),
+    nombre_usuario VARCHAR (250),
+    tipo_cuenta VARCHAR (50),
+    dinero_cuenta DECIMAL (20,2),
+    deposito DECIMAL(20,2),
+    clabe_deposito BIGINT (16),
+    nombre_deposito VARCHAR (250)    
+);

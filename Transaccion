@@ -1,0 +1,7 @@
+START TRANSACTION;
+
+INSERT INTO usuarios (dinero_cuenta) VALUES (-1000);
+
+INSERT INTO deposito (dinero_cuenta, deposito, clabe_deposito, nombre_deposito) VALUES (1000, 1000, 123456789, 'Oswaldo Ivan Villa');
+
+COMMIT;
